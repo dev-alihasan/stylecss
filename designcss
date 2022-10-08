@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.card{
+    background-color: #fcfcfc;
+/*     width: 1041px;
+    height: 650px; */
+/*     margin: 30px auto; */
+    box-shadow: 0px 0px 6px 5px #eee;
+    position: relative;
+    z-index: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+    align-items: center;
+}
+nav .logo img{
+width: 50px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #313030;
+    font-size: 15px;
+
+}
+section{
+    padding-top: 40px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 648px 350px;
+}
+.content .text{
+    padding-top: 35px;
+}
+.content .text header{
+    font-size: 50px;
+    font-weight: 500;
+    white-space: pre-line;
+    line-height: 1.3;
+   
+}
+
+.content .text span{
+    color: #017143;
+    font-weight: 800;
+    font-size: 56px;
+
+}
+
+.content .text p{
+    color: #333;
+    line-height: 1.5;
+    white-space: pre-line;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.content .text a{
+    background-color: #017143;
+    text-decoration: none;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 26px;
+    font-weight: 600;
+
+}
+.content .img img{
+ width: 80%;
+}
+.thumb {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.thumb li:hover{
+ transform: translateY(-15px);
+}
+.thumb li{
+    margin: 10px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.thumb img{
+    width: 60px;
+}
+.socal{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: flex-end;
+    position: relative;
+    top: -362px;
+}
+.socal li{
+    padding-bottom:15px
+}
+.socal img{
+    width: 18px;
+    filter: invert(1);
+}
+.cr{
+    background-color: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   top: 0;
+  left: 0;
+  clip-path: circle(423px at right 532px);
+  z-index: -1;
+}
